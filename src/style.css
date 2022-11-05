@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+/*------------------Links------------------*/
+.linkBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    cursor: pointer;
+    height: 100%;
+    transition: all ease 0.5s;
+}
+.linkBlock:hover {
+    background-color: #3A82DA;
+}
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.ticketsQuantity {
+    background-color: red;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/*------------------Movies------------------*/
+
+.moviesList {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.movies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.movies img {
+    width: 200px;
+    height: 300px;
+}
+
+.movies button {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.movies button:hover {
+    background-color: rgb(243, 65, 65);
+}
+.buyTicketsBtn {
+    color: white;
+    text-decoration: none;
+}
+
+/*------------------Cinema Hall------------------*/
+
+.mainHall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.cinemaHall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    margin-top: 20px;
+}
+
+.seats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 20px;
+    background-color: #342e56;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.61);
+}
+.screen img {
+    width: 600px;
+}
+
+.selectedSeat {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: #259AD5;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.selectedMovie {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.selectedMovie img{
+    width: 300px;
+    height: 450px;
+}
+
+.acceptBtn button {
+    background-color: white;
+    border: 1px solid #3A82DA;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.acceptBtn button:hover {
+    background-color: #3A82DA;
+    color: white;
+}
+
+/*------------------Tickets------------------*/
+
+.ticketsCart {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.places {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+
+}
+
+.ticketImg img {
+    width: 300px;
+    height: 450px;
+}
